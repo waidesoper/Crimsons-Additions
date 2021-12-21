@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "crimsonsadditions:block/stone_torch_wall"
+    },
+    "facing=north": {
+      "model": "crimsonsadditions:block/stone_torch_wall",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "crimsonsadditions:block/stone_torch_wall",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "crimsonsadditions:block/stone_torch_wall",
+      "y": 180
+    }
+  }
+}

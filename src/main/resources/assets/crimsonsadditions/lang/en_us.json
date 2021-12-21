@@ -1,0 +1,67 @@
+{
+  "item.crimsonsadditions.rose_gold_sword": "Rose Gold Sword",
+  "item.crimsonsadditions.rose_gold_axe": "Rose Gold Axe",
+  "item.crimsonsadditions.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.crimsonsadditions.rose_gold_shovel": "Rose Gold Shovel",
+  "item.crimsonsadditions.rose_gold_hoe": "Rose Gold Hoe",
+
+  "item.crimsonsadditions.rose_gold_helmet": "Rose Gold Helmet",
+  "item.crimsonsadditions.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.crimsonsadditions.rose_gold_leggings": "Rose Gold Leggings",
+  "item.crimsonsadditions.rose_gold_boots": "Rose Gold Boots",
+  "item.crimsonsadditions.rose_gold_ingot": "Rose Gold Ingot",
+
+  "block.crimsonsadditions.rose_gold": "Rose Gold Block",
+  "block.crimsonsadditions.lava_sponge": "Lava Sponge",
+  "block.crimsonsadditions.lava_sponge_wet": "Wet Lava Sponge",
+  "block.crimsonsadditions.stone_torch": "Stone Torch",
+
+  "item.crimsonsadditions.copper_sword": "Copper Sword",
+  "item.crimsonsadditions.copper_axe": "Copper Axe",
+  "item.crimsonsadditions.copper_pickaxe": "Copper Pickaxe",
+  "item.crimsonsadditions.copper_shovel": "Copper Shovel",
+  "item.crimsonsadditions.copper_hoe": "Copper Hoe",
+
+  "item.crimsonsadditions.glass_cutter": "Glass Cutter",
+
+  "item.crimsonsadditions.copper_helmet": "Copper Helmet",
+  "item.crimsonsadditions.copper_chestplate": "Copper Chestplate",
+  "item.crimsonsadditions.copper_leggings": "Copper Leggings",
+  "item.crimsonsadditions.copper_boots": "Copper Boots",
+
+  "item.crimsonsadditions.animal_net": "Animal Net",
+  "item.crimsonsadditions.apple_cooked": "Cooked Apple",
+  "item.crimsonsadditions.backpack": "Back Pack",
+  "item.crimsonsadditions.backpack_ender": "Ender Back Pack",
+  "item.crimsonsadditions.copper_shears": "Copper Shears",
+  "item.crimsonsadditions.tiny_coal": "Tiny Coal",
+  "item.crimsonsadditions.tiny_charcoal": "Tiny Charcoal",
+
+  "container.crimsonsadditions.backpack": "Back Pack",
+  "container.crimsonsadditions.backpack_ender": "Ender Back Pack",
+
+  "advancements.copper_gear.title": "Cover Me In Copper",
+  "advancements.copper_gear.description": "Craft each piece of Copper Armour",
+
+  "enchantment.crimsonsadditions.ench_autosmelt": "Auto Smelt",
+  "enchantment.crimsonsadditions.ench_void": "Void",
+  "enchantment.crimsonsadditions.ench_bagnet": "Bagnet",
+  "enchantment.crimsonsadditions.ench_miners": "Miners Delight",
+  "enchantment.crimsonsadditions.ench_killers": "Killers Fervour",
+
+  "enchantment.crimsonsadditions.ench_autosmelt.desc": "Automatically smelt mined blocks",
+  "enchantment.crimsonsadditions.ench_void.desc": "Automatically void mined blocks",
+  "enchantment.crimsonsadditions.ench_bagnet.desc": "While holding a Backpack, mined blocks go straight into it",
+  "enchantment.crimsonsadditions.ench_miners.desc": "Mining Stone, Netherrack and End Stone has a chance to produce ores",
+  "enchantment.crimsonsadditions.ench_killers.desc": "Kill an entity so hard it produces its own egg !",
+
+  "tip.crimsonsadditions.magnet1": "%s Item Pickup",
+  "tip.crimsonsadditions.magnet2": "%s XP Pickup",
+  "tip.crimsonsadditions.magnet3": "%s Item and XP Pickup",
+  "tip.crimsonsadditions.active": "%s Active",
+  "tip.crimsonsadditions.inactive": "%s Inactive",
+  "item.crimsonsadditions.magnet": "Simple Magnet",
+  "key.crimsonsadditions.magnet": "Magnet Toggle",
+  "key.crimsonsadditions.magnetmode": "Magnet Mode Toggle",
+  "title.crimsonsadditions.config": "Simple Magnet"
+}

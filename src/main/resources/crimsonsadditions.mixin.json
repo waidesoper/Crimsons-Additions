@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "crimsonfluff.crimsonsadditions.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "mixinBlock",
+    "mixinBowItem",
+    "mixinItemPredicate",
+    "mixinSwordItem"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

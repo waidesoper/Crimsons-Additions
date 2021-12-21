@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": "crimsonsadditions:apple_cooked",
+  "experience": 0.35,
+  "cookingtime": 200
+}

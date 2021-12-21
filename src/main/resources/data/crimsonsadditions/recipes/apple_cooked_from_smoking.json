@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": "crimsonsadditions:apple_cooked",
+  "experience": 0.35,
+  "cookingtime": 100
+}

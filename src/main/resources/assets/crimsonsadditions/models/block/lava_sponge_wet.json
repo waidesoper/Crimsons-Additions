@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "crimsonsadditions:block/lava_sponge_wet"
+  }
+}
