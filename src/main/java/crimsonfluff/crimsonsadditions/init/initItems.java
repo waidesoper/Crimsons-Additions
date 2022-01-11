@@ -3,14 +3,19 @@ package crimsonfluff.crimsonsadditions.init;
 import crimsonfluff.crimsonsadditions.CrimsonsAdditions;
 import crimsonfluff.crimsonsadditions.backpack.Backpack;
 import crimsonfluff.crimsonsadditions.backpack.EnderBackpack;
+import crimsonfluff.crimsonsadditions.entities.TorchArrowEntity;
 import crimsonfluff.crimsonsadditions.items.*;
 import crimsonfluff.crimsonsadditions.materials.materialCopperArmour;
 import crimsonfluff.crimsonsadditions.materials.materialCopperTool;
 import crimsonfluff.crimsonsadditions.materials.materialRoseGoldArmour;
 import crimsonfluff.crimsonsadditions.materials.materialRoseGoldTool;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.entity.EntityDimensions;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.SpawnGroup;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -48,6 +53,12 @@ public class initItems {
 
     public static final Item TINY_COAL = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item TINY_CHARCOAL = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+
+    public static final TorchArrow TORCH_ARROW = new TorchArrow(new Item.Settings().group(ItemGroup.COMBAT));
+    public static final EntityType<TorchArrowEntity> TORCH_ARROW_ENTITY_TYPE = FabricEntityTypeBuilder.<TorchArrowEntity>create(SpawnGroup.MISC, TorchArrowEntity::new)
+            .dimensions(EntityDimensions.fixed(0.25F,0.25F))
+            .trackRangeBlocks(10)
+            .build();
 
 
     public static void register() {
@@ -90,6 +101,9 @@ public class initItems {
 
         Registry.register(Registry.ITEM, new Identifier(CrimsonsAdditions.MOD_ID, "tiny_charcoal"), TINY_CHARCOAL);
         FuelRegistry.INSTANCE.add(TINY_CHARCOAL, 200);
+
+        Registry.register(Registry.ITEM, new Identifier(CrimsonsAdditions.MOD_ID, "torch_arrow"), TORCH_ARROW);
+        Registry.register(Registry.ENTITY_TYPE, new Identifier(CrimsonsAdditions.MOD_ID, "torch_arrow"), TORCH_ARROW_ENTITY_TYPE);
 
         Registry.register(Registry.ITEM, new Identifier(CrimsonsAdditions.MOD_ID, "animal_net"), ANIMAL_NET);
         Registry.register(Registry.ITEM, new Identifier(CrimsonsAdditions.MOD_ID, "backpack_ender"), ENDER_BACKPACK);

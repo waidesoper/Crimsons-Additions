@@ -6,4 +6,5 @@ import net.minecraft.util.Identifier;
 public class ModPackets {
     public static final Identifier MAGNET_TOGGLE = new Identifier(CrimsonsAdditions.MOD_ID, "magnet_toggle");
     public static final Identifier MAGNET_MODE = new Identifier(CrimsonsAdditions.MOD_ID, "magnet_mode");
+    public static final Identifier SPAWN_PACKET = new Identifier(CrimsonsAdditions.MOD_ID, "spawn_packet");
 }
